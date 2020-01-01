@@ -7,14 +7,14 @@ with open('README.md') as f:
     README = f.read()
 
 setuptools.setup(
-    author="Shay Palachy",
-    author_email="shay.palachy@gmail.com",
-    name='chocobo',
+    author="J.A. Sampedro",
+    author_email="techurbana@gmail.com",
+    name='pynano',
     license="MIT",
-    description='chocobo is a python package for delicious chocobo recipes.',
-    version='v0.0.3',
+    description='Arduino + pyFirmata.',
+    version='v0.0.1',
     long_description=README,
-    url='https://github.com/shaypal5/chocobo',
+    url='https://github.com/techurbana/pynano',
     packages=setuptools.find_packages(),
     python_requires=">=3.5",
     install_requires=['requests'],
